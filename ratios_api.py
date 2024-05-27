@@ -82,7 +82,7 @@ Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-api_key = '577215b285ad0d4157a42a38d94d98ae'
+api_key = 'YOUR_API_KEY'
 symbols = ['AAPL', 'GS', 'GOOG', 'IBM', 'PRAA','PAAS','MSFT', 'NVDA','AMZN', 'META']  # Add more symbols if needed
 limit = 500
 
